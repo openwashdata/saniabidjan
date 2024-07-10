@@ -1,7 +1,8 @@
 #' saniabidjan: Title goes here
-#' 
-#' Description of the data goes here...
-#' 
+#'
+#' Household survey data collected from Yopougon and Abobo in Abidjan, Cote d'Ivoire.
+#' The survey is about practices related to the management of sanitation facilities, specifically, latrines and tanks.
+#'
 #' @format A tibble with 207 rows and 25 variables
 #' \describe{
 #'   \item{area_name}{Two areas of Abidjan, options including [1] Yopougon and [2] Abobo.}

@@ -1,0 +1,45 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "saniabidjan" in publications use:'
+type: software
+license: CC-BY-4.0
+title: 'saniabidjan: Data About Behavior and Practices of Managing Sanitation Facilties
+  in Abidjan, Cote d’Ivoire'
+version: 0.0.0.9000
+abstract: This data package contains household survey data collected from two low-income
+  areas of Abidjan, Cote d'Ivoire. The survey was focusing on practices related to
+  the management of sanitation facilities, specifically, latrines and tanks.
+authors:
+- family-names: Zié Zoumana Coulibaly
+  given-names: Phaniwa
+  email: coulbyph@gmail.com
+  orcid: https://orcid.org/0000-0002-3096-9061
+- family-names: Zhong
+  given-names: Mian
+  email: mzhong@ethz.ch
+  orcid: https://orcid.org/0009-0009-4546-7214
+repository-code: https://github.com/openwashdata/saniabidjan
+url: https://github.com/openwashdata/saniabidjan
+date-released: '2024-07-10'
+contact:
+- family-names: Zhong
+  given-names: Mian
+  email: mzhong@ethz.ch
+  orcid: https://orcid.org/0009-0009-4546-7214
+references:
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+  version: '>= 2.10'
+
