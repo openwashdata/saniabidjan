@@ -1,0 +1,208 @@
+area_name,sex,education,housing_type,status,lat_facilities,facilities_loc,facilities_type,lat_sharing,nb_user,impacts_of_sharing,lat_care,clean_freq_wk,tank_presence,tank_location,latrines_nb,tk_status,empty_freq_yr,empty_mode,empty_price,wastwat_dispos,waste_cont,waste_cont_loc,cont_empty_wk,common_ill
+Yopougon,male,primary,individual,renter,FALSE,house,improved latrine,FALSE,2,no problems,myself,4,TRUE,court yard,8,performs well,1,emptying truck,40000,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,common courtyard,owner,TRUE,yard,pit latrine,FALSE,10,waiting line,myself,2,TRUE,court yard,8,performs well,2,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,waiting line,myself,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,no,common courtyard,renter,TRUE,yard,pit latrine,FALSE,2,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,2,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,common courtyard,renter,TRUE,yard,pit latrine,FALSE,5,waiting line,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,infections
+Yopougon,female,no,common courtyard,renter,TRUE,house,pit latrine,TRUE,2,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,no,common courtyard,renter,TRUE,house,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,waiting line,myself,2,TRUE,court yard,8,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Yopougon,male,graduate,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,vulnerable to disease,myself,4,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,NA,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,no care,NA,FALSE,NA,10,NA,NA,NA,NA,street,TRUE,courtyard,NA,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,1,manual emptying,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,waiting line,round turn,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,2,waiting line,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,waiting line,round turn,2,TRUE,court yard,8,performs well,1,emptying truck,30000,open drain,TRUE,out of courtyard,5.5,typhoid fever
+Yopougon,male,graduate,common courtyard,free host,TRUE,out of yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,out of court yard,10,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,primary,common courtyard,free host,TRUE,house,improved latrine,FALSE,2,hygiene problems,myself,2,TRUE,court yard,10,not working well,1,truck and manual,NA,courtyard,TRUE,courtyard,NA,malaria
+Yopougon,male,primary,common courtyard,free host,TRUE,house,improved latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,TRUE,court yard,10,performs well,1,manual emptying,15000,open drain,TRUE,courtyard,5.5,malaria
+Yopougon,male,primary,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,court yard,10,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,out of court yard,8,performs well,1,emptying truck,15000,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,FALSE,2,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,NA,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,house,improved latrine,FALSE,2,no problems,myself,2,TRUE,court yard,8,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Yopougon,male,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,10,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,40000,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,courtyard,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,8.5,hygiene problems,myself,2,TRUE,court yard,8,performs well,3,emptying truck,40000,street,TRUE,courtyard,2,typhoid fever
+Yopougon,male,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,3,performs well,3,emptying truck,15000,courtyard,TRUE,out of courtyard,2,malaria
+Yopougon,male,no,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,waiting line,myself,2,TRUE,court yard,8,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,male,graduate,common courtyard,owner,TRUE,out of yard,pit latrine,TRUE,10,no problems,round turn,4,TRUE,court yard,3,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,male,graduate,common courtyard,free host,TRUE,yard,improved latrine,TRUE,10,vulnerable to disease,round turn,4,TRUE,court yard,8,performs well,3,emptying truck,40000,courtyard,TRUE,courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,out of yard,pit latrine,TRUE,5,waiting line,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,2,typhoid fever
+Yopougon,male,primary,individual,renter,TRUE,house,improved latrine,FALSE,2,hygiene problems,myself,4,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,common courtyard,free host,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,3,emptying truck,30000,street,TRUE,courtyard,2,diarrhea
+Yopougon,female,high school,individual,renter,TRUE,house,improved latrine,FALSE,2,hygiene problems,myself,4,TRUE,court yard,10,performs well,3,emptying truck,30000,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,8.5,no problems,private person,2,TRUE,court yard,8,performs well,2,emptying truck,40000,courtyard,TRUE,courtyard,2,malaria
+Yopougon,female,no,individual,owner,TRUE,house,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,individual,renter,TRUE,yard,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,courtyard,TRUE,courtyard,2,malaria
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,round turn,4,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,NA,typhoid fever
+Yopougon,male,primary,common courtyard,free host,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,round turn,2,TRUE,court yard,10,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,common courtyard,owner,TRUE,yard,pit latrine,TRUE,2,no problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,house,pit latrine,FALSE,2,vulnerable to disease,myself,2,TRUE,court yard,10,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,female,primary,common courtyard,free host,TRUE,house,improved latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,FALSE,NA,8,NA,NA,NA,NA,courtyard,TRUE,courtyard,NA,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,waiting line,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,individual,owner,TRUE,house,pit latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,NA,malaria
+Yopougon,female,no,individual,renter,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,male,primary,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,vulnerable to disease,myself,4,TRUE,out of court yard,8,performs well,3,emptying truck,15000,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,no care,NA,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,no problems,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,typhoid fever
+Yopougon,female,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,primary,common courtyard,owner,TRUE,out of yard,pit latrine,TRUE,10,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,infections
+Yopougon,male,no,common courtyard,renter,TRUE,out of yard,pit latrine,TRUE,8.5,waiting line,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,FALSE,5,no problems,myself,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,female,primary,individual,renter,TRUE,yard,pit latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,yard,pit latrine,FALSE,5,no problems,myself,2,TRUE,court yard,3,performs well,3,emptying truck,30000,street,TRUE,out of courtyard,2,malaria
+Yopougon,female,primary,individual,renter,TRUE,yard,pit latrine,TRUE,5,waiting line,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,infections
+Yopougon,male,high school,common courtyard,free host,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,female,no,individual,renter,TRUE,house,improved latrine,FALSE,5,waiting line,myself,2,TRUE,out of court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,no,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,vulnerable to disease,private person,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,3,performs well,3,emptying truck,15000,street,TRUE,out of courtyard,2,malaria
+Yopougon,female,no,common courtyard,owner,TRUE,house,pit latrine,FALSE,5,waiting line,myself,2,TRUE,court yard,3,performs well,3,emptying truck,30000,courtyard,TRUE,courtyard,2,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,not know,3,NA,NA,NA,NA,courtyard,TRUE,courtyard,2,malaria
+Yopougon,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,FALSE,10,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Yopougon,female,no,common courtyard,renter,TRUE,yard,pit latrine,FALSE,10,no problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,private person,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,NA,malaria
+Yopougon,male,high school,common courtyard,free host,TRUE,house,improved latrine,FALSE,2,vulnerable to disease,private person,2,TRUE,court yard,3,performs well,2,emptying truck,40000,street,TRUE,courtyard,5.5,typhoid fever
+Yopougon,female,high school,individual,owner,TRUE,house,improved latrine,FALSE,10,hygiene problems,private person,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,5.5,typhoid fever
+Yopougon,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,3,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Yopougon,female,primary,common courtyard,free host,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,typhoid fever
+Yopougon,male,graduate,individual,renter,TRUE,house,pit latrine,FALSE,2,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,2,emptying truck,30000,open drain,TRUE,out of courtyard,2,diarrhea
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,3,emptying truck,15000,street,TRUE,out of courtyard,5.5,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,hygiene problems,round turn,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,typhoid fever
+Yopougon,male,primary,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,4,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,no care,NA,TRUE,court yard,3,not working well,1,truck and manual,NA,courtyard,TRUE,courtyard,2,typhoid fever
+Yopougon,male,primary,common courtyard,owner,TRUE,yard,pit latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Yopougon,female,graduate,common courtyard,owner,TRUE,house,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,out of court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,female,no,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,hygiene problems,myself,2,TRUE,out of court yard,8,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,5.5,typhoid fever
+Yopougon,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,round turn,4,TRUE,court yard,3,not working well,1,truck and manual,NA,open drain,TRUE,out of courtyard,2,typhoid fever
+Yopougon,female,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Yopougon,female,primary,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,2,emptying truck,30000,open drain,TRUE,courtyard,2,typhoid fever
+Yopougon,female,high school,common courtyard,renter,TRUE,house,pit latrine,TRUE,8.5,hygiene problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,NA,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,10,hygiene problems,private person,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Yopougon,male,graduate,individual,renter,TRUE,yard,pit latrine,FALSE,8.5,no problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,NA,typhoid fever
+Yopougon,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,typhoid fever
+Yopougon,female,high school,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,NA,typhoid fever
+Yopougon,female,coranic,common courtyard,renter,TRUE,yard,improved latrine,FALSE,8.5,hygiene problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,no problems,round turn,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Yopougon,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,round turn,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Yopougon,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Yopougon,female,no,common courtyard,owner,TRUE,yard,pit latrine,TRUE,10,hygiene problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,yard,pit latrine,FALSE,8.5,waiting line,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,2,malaria
+Yopougon,male,high school,common courtyard,owner,TRUE,out of yard,pit latrine,TRUE,10,no problems,myself,2,TRUE,out of court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Yopougon,female,high school,common courtyard,free host,TRUE,yard,pit latrine,FALSE,10,hygiene problems,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Abobo,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,FALSE,NA,8,NA,NA,NA,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,owner,TRUE,yard,pit latrine,TRUE,10,no problems,round turn,2,TRUE,court yard,8,performs well,1,truck and manual,NA,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,female,high school,common courtyard,owner,TRUE,yard,pit latrine,FALSE,5,no problems,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,male,graduate,individual,owner,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,renter,TRUE,yard,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,no problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,courtyard,TRUE,courtyard,2,typhoid fever
+Abobo,male,coranic,common courtyard,owner,TRUE,yard,pit latrine,TRUE,10,no problems,round turn,4,TRUE,court yard,3,performs well,3,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,owner,TRUE,yard,pit latrine,TRUE,10,no problems,myself,2,TRUE,court yard,3,performs well,3,emptying truck,15000,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,round turn,2,TRUE,court yard,8,performs well,3,manual emptying,30000,courtyard,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,no problems,no care,NA,TRUE,court yard,3,performs well,1,truck and manual,NA,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,owner,TRUE,yard,improved latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,out of court yard,8,performs well,3,manual emptying,15000,street,TRUE,out of courtyard,2,malaria
+Abobo,male,high school,common courtyard,free host,TRUE,yard,pit latrine,TRUE,8.5,waiting line,round turn,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Abobo,female,no,common courtyard,free host,TRUE,yard,pit latrine,TRUE,5,no problems,round turn,4,FALSE,not know,3,NA,NA,NA,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,primary,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,no problems,myself,4,FALSE,not know,8,NA,NA,NA,NA,open drain,TRUE,courtyard,2,malaria
+Abobo,male,high school,common courtyard,renter,TRUE,out of yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,FALSE,NA,3,NA,NA,NA,NA,courtyard,TRUE,courtyard,2,typhoid fever
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,private person,2,FALSE,NA,8,NA,NA,NA,NA,street,TRUE,courtyard,2,infections
+Abobo,female,primary,common courtyard,owner,TRUE,yard,pit latrine,TRUE,5,no problems,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,owner,TRUE,yard,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,malaria
+Abobo,male,graduate,common courtyard,renter,TRUE,yard,improved latrine,TRUE,8.5,vulnerable to disease,round turn,2,FALSE,NA,3,NA,NA,NA,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,graduate,common courtyard,owner,TRUE,yard,pit latrine,FALSE,2,waiting line,myself,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Abobo,female,primary,individual,renter,TRUE,house,improved latrine,FALSE,2,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,female,primary,individual,renter,TRUE,house,pit latrine,FALSE,10,vulnerable to disease,myself,2,TRUE,not know,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,malaria
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,4,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,high school,individual,renter,TRUE,yard,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,court yard,3,performs well,1,manual emptying,15000,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,owner,TRUE,house,improved latrine,FALSE,8.5,hygiene problems,myself,2,TRUE,court yard,3,performs well,2,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,no,common courtyard,free host,TRUE,house,improved latrine,FALSE,8.5,no problems,private person,2,TRUE,out of court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Abobo,female,graduate,common courtyard,renter,TRUE,house,improved latrine,FALSE,5,no problems,myself,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,no,common courtyard,renter,TRUE,house,improved latrine,FALSE,2,no problems,myself,2,TRUE,out of court yard,8,performs well,3,emptying truck,40000,courtyard,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,male,coranic,common courtyard,owner,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,FALSE,NA,8,NA,NA,NA,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,high school,common courtyard,owner,TRUE,house,improved latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,8,performs well,3,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,2,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Abobo,female,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,free host,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,malaria
+Abobo,female,no,common courtyard,free host,TRUE,yard,pit latrine,TRUE,8.5,waiting line,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,waiting line,private person,2,TRUE,court yard,8,performs well,3,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,no problems,private person,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,free host,TRUE,yard,pit latrine,TRUE,8.5,waiting line,round turn,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,no,individual,free host,TRUE,yard,pit latrine,TRUE,2,waiting line,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,high school,common courtyard,renter,FALSE,NA,public latrine,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,TRUE,courtyard,2,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,renter,TRUE,yard,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,no problems,private person,2,TRUE,court yard,3,performs well,3,emptying truck,30000,street,FALSE,NA,NA,typhoid fever
+Abobo,male,no,common courtyard,free host,TRUE,house,improved latrine,FALSE,2,hygiene problems,myself,2,TRUE,out of court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,no,common courtyard,free host,TRUE,yard,pit latrine,TRUE,10,hygiene problems,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,graduate,common courtyard,free host,TRUE,yard,pit latrine,TRUE,5,hygiene problems,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,NA,typhoid fever
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,myself,4,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,owner,TRUE,house,improved latrine,FALSE,10,no problems,myself,2,TRUE,out of court yard,8,performs well,2,manual emptying,30000,street,TRUE,courtyard,NA,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,house,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,private person,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,2,hygiene problems,round turn,NA,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,no problems,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,waiting line,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,NA,infections
+Abobo,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,malaria
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,no care,NA,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,private person,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,malaria
+Abobo,male,no,common courtyard,owner,TRUE,house,improved latrine,FALSE,10,no problems,myself,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,malaria
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,hygiene problems,round turn,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,courtyard,NA,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,no problems,round turn,2,TRUE,court yard,8,performs well,1,emptying truck,30000,street,TRUE,courtyard,5.5,malaria
+Abobo,male,graduate,individual,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,5.5,malaria
+Abobo,male,graduate,individual,free host,TRUE,house,improved latrine,FALSE,8.5,no problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,coranic,common courtyard,renter,TRUE,house,improved latrine,FALSE,8.5,no problems,myself,4,TRUE,court yard,8,performs well,1,truck and manual,NA,courtyard,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,male,high school,individual,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,10,vulnerable to disease,myself,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,private person,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,8,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,private person,2,TRUE,court yard,8,performs well,3,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,private person,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,individual,renter,TRUE,house,pit latrine,FALSE,8.5,hygiene problems,myself,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,female,graduate,common courtyard,owner,TRUE,house,improved latrine,FALSE,5,no problems,myself,2,TRUE,court yard,3,performs well,3,emptying truck,30000,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,female,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,4,TRUE,court yard,8,not working well,1,truck and manual,NA,open drain,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,4,TRUE,court yard,8,not working well,1,truck and manual,NA,open drain,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,round turn,2,TRUE,court yard,3,performs well,1,truck and manual,NA,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,court yard,8,not working well,1,truck and manual,NA,open drain,TRUE,courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,owner,TRUE,yard,pit latrine,TRUE,5,no problems,round turn,2,TRUE,court yard,3,performs well,2,emptying truck,30000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,no,common courtyard,owner,TRUE,house,improved latrine,FALSE,10,no problems,myself,2,TRUE,court yard,3,performs well,1,truck and manual,NA,open drain,TRUE,courtyard,5.5,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,round turn,2,TRUE,out of court yard,8,not working well,1,truck and manual,NA,open drain,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,no,common courtyard,owner,TRUE,yard,pit latrine,TRUE,8.5,no problems,myself,2,TRUE,court yard,3,performs well,3,emptying truck,15000,street,TRUE,out of courtyard,NA,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,vulnerable to disease,private person,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,female,high school,individual,renter,TRUE,yard,improved latrine,FALSE,5,vulnerable to disease,myself,2,TRUE,out of court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,male,high school,common courtyard,renter,TRUE,yard,pit latrine,TRUE,2,vulnerable to disease,round turn,2,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,female,coranic,common courtyard,renter,TRUE,house,improved latrine,FALSE,2,no problems,myself,4,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,yard,pit latrine,FALSE,5,no problems,myself,4,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,5,hygiene problems,round turn,2,FALSE,NA,NA,NA,NA,NA,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,coranic,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,no problems,private person,2,TRUE,court yard,3,performs well,1,emptying truck,15000,street,TRUE,courtyard,5.5,typhoid fever
+Abobo,female,no,individual,owner,TRUE,house,improved latrine,FALSE,10,no problems,myself,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,owner,TRUE,yard,pit latrine,TRUE,5,no problems,private person,2,TRUE,out of court yard,3,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,5.5,typhoid fever
+Abobo,female,no,common courtyard,renter,TRUE,house,pit latrine,FALSE,2,no problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,15000,street,TRUE,courtyard,2,typhoid fever
+Abobo,female,primary,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,vulnerable to disease,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,street,TRUE,courtyard,2,typhoid fever
+Abobo,male,graduate,common courtyard,renter,TRUE,house,improved latrine,FALSE,2,no problems,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,out of courtyard,2,typhoid fever
+Abobo,female,high school,common courtyard,renter,TRUE,house,pit latrine,FALSE,5,no problems,myself,4,TRUE,court yard,3,performs well,1,truck and manual,NA,street,TRUE,courtyard,2,NA
+Abobo,female,primary,common courtyard,owner,TRUE,yard,pit latrine,FALSE,5,no problems,myself,2,TRUE,court yard,8,performs well,1,emptying truck,30000,open drain,TRUE,courtyard,2,NA
+Abobo,female,primary,common courtyard,renter,TRUE,house,pit latrine,FALSE,8.5,vulnerable to disease,myself,2,TRUE,court yard,8,not working well,1,truck and manual,NA,street,TRUE,courtyard,5.5,NA
+Abobo,male,high school,individual,renter,TRUE,house,improved latrine,FALSE,5,vulnerable to disease,myself,2,FALSE,NA,NA,NA,NA,NA,NA,street,TRUE,out of courtyard,2,NA
+Abobo,female,high school,individual,renter,TRUE,house,improved latrine,FALSE,5,hygiene problems,myself,2,TRUE,court yard,3,performs well,1,emptying truck,30000,street,TRUE,courtyard,2,malaria
+Abobo,male,no,common courtyard,renter,TRUE,yard,pit latrine,TRUE,8.5,hygiene problems,round turn,2,TRUE,court yard,3,not working well,1,truck and manual,NA,open drain,TRUE,courtyard,2,malaria
