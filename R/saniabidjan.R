@@ -1,4 +1,4 @@
-#' saniabidjan: Title goes here
+#' saniabidjan:  Data About Behavior and Practices of Managing Sanitation Facilties in Abidjan, Cote d’Ivoire
 #'
 #' Household survey data collected from Yopougon and Abobo in Abidjan, Cote d'Ivoire.
 #' The survey is about practices related to the management of sanitation facilities, specifically, latrines and tanks.

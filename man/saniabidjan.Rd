@@ -3,7 +3,7 @@
 \docType{data}
 \name{saniabidjan}
 \alias{saniabidjan}
-\title{saniabidjan: Title goes here}
+\title{saniabidjan:  Data About Behavior and Practices of Managing Sanitation Facilties in Abidjan, Cote d’Ivoire}
 \format{
 A tibble with 207 rows and 25 variables
 \describe{

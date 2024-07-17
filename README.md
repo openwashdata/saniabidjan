@@ -10,7 +10,9 @@
 
 <!-- badges: end -->
 
-The goal of saniabidjan is to …
+The goal of saniabidjan is to provide survey data about the behavior and
+practices of managing sanitation facilties in two low-income areas of
+Abidjan, Cote d’Ivoire.
 
 ## Installation
 
@@ -42,7 +44,11 @@ file from the table below.
 
 ## Data
 
-The package provides access to …
+The package provides access to one dataset `saniabidjan`. It contains
+household survey data in two low-income areas of Abidjan. The focus of
+the survey is to understand the behavior and practices of the population
+in terms of managing sanitation facilities, as well as to assess the
+diseases they face.
 
 ``` r
 library(saniabidjan)
@@ -50,8 +56,9 @@ library(saniabidjan)
 
 ### saniabidjan
 
-The dataset `saniabidjan` contains data about … It has 207 observations
-and 25 variables
+The dataset `saniabidjan` contains data about household surveys that
+cover 101 households in Abobo and 106 households in Yopougon. It has 207
+observations and 25 variables
 
 ``` r
 saniabidjan |> 
@@ -60,7 +67,7 @@ saniabidjan |>
   gt::as_raw_html()
 ```
 
-<div id="nhjxfuqbhf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="wjfrmxviey" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -199,7 +206,7 @@ area_name
 factor
 </td>
 <td style="text-align:left;">
-Two areas of Abidjan, options including \[1\] Yopougon and \[2\] Abobo.
+Identify survey areas, options including (1) Abobo and (2) Yopougon.
 </td>
 </tr>
 <tr>
@@ -210,7 +217,7 @@ sex
 factor
 </td>
 <td style="text-align:left;">
-Sex of the respondent, options including \[1\] male and \[2\] female.
+Indicates respondents gender, options including (1) female and (2) male.
 </td>
 </tr>
 <tr>
@@ -221,9 +228,8 @@ education
 factor
 </td>
 <td style="text-align:left;">
-Educational level of the respondent, options including \[1\] no, \[2\]
-coranic: Koranic school, \[3\] primary: primary school, \[4\] high
-school, and \[5\] graduate.
+Level of education of respondents, options including (1) no, (2)
+primary, (3) coranic, (4) high school, and (5) graduate.
 </td>
 </tr>
 <tr>
@@ -234,8 +240,8 @@ housing_type
 factor
 </td>
 <td style="text-align:left;">
-Types of housing, options including \[1\] individual and \[2\] common
-courtyard.
+Description of the accommodation unit where the respondent lives,
+options including (1) common courtyard and (2) individual.
 </td>
 </tr>
 <tr>
@@ -246,8 +252,8 @@ status
 factor
 </td>
 <td style="text-align:left;">
-Status of the respondent to the housing, options including \[1\] free
-host, \[2\] owner, and \[3\] renter.
+Indicates if respondent is the homeowner or not, options including (1)
+free host, (2) owner, and (3) renter.
 </td>
 </tr>
 <tr>
@@ -258,7 +264,7 @@ lat_facilities
 logical
 </td>
 <td style="text-align:left;">
-to be available
+Ensuring the presence or absence of latrine facilities
 </td>
 </tr>
 <tr>
@@ -269,8 +275,8 @@ facilities_loc
 factor
 </td>
 <td style="text-align:left;">
-Location of the latrine, options including \[1\] house, \[2\] yard, and
-\[3\] out of yard.
+Specifies the exact location of the latrine in the household, options
+including (1) house, (2) yard, and (3) out of yard.
 </td>
 </tr>
 <tr>
@@ -281,8 +287,8 @@ facilities_type
 factor
 </td>
 <td style="text-align:left;">
-Type of the latrine facility, options including \[1\] pit latrine, \[2\]
-improved latrine, and \[3\] public latrine.
+Describes the type of latrine used in the household, options including
+(1) pit latrine, (2) improved latrine, and (3) public latrine.
 </td>
 </tr>
 <tr>
@@ -293,7 +299,7 @@ lat_sharing
 logical
 </td>
 <td style="text-align:left;">
-Is the latrine shared?
+Explains how latrines are used in the household
 </td>
 </tr>
 <tr>
@@ -304,7 +310,7 @@ nb_user
 numeric
 </td>
 <td style="text-align:left;">
-Number of users.
+Reveals the number of users of the latrines.
 </td>
 </tr>
 <tr>
@@ -315,9 +321,9 @@ impacts_of_sharing
 factor
 </td>
 <td style="text-align:left;">
-The impacts of sharing latrine, options including \[1\] no problems,
-\[2\] hygiene problems, \[3\] vulnerable to disease, and \[4\] waiting
-line.
+Indication of how the respondent perceives the use of latrines, options
+including (1) hygiene problems, (2) no problems, (3) vulnerable to
+disease, and (4) waiting line.
 </td>
 </tr>
 <tr>
@@ -328,8 +334,9 @@ lat_care
 factor
 </td>
 <td style="text-align:left;">
-Who takes care of the latrine cleaning, options including \[1\] no care,
-\[2\] myself, \[3\] private person, \[4\] round turn.
+Gives an overview of the people in charge of latrine cleaning, options
+including (1) myself, (2) no care, and (3) private person, and (4) round
+turn.
 </td>
 </tr>
 <tr>
@@ -340,7 +347,7 @@ clean_freq_wk
 numeric
 </td>
 <td style="text-align:left;">
-Weekly frequency of cleaning latrine, 2: 1-3 times, 4: 4 or more times.
+Specifies the cleaning frequency of latrines in the household.
 </td>
 </tr>
 <tr>
@@ -351,7 +358,7 @@ tank_presence
 logical
 </td>
 <td style="text-align:left;">
-to be available
+Ensuring the presence or absence of septic tank in the household
 </td>
 </tr>
 <tr>
@@ -362,8 +369,9 @@ tank_location
 factor
 </td>
 <td style="text-align:left;">
-Location of the tank, options including \[1\] court yard, \[2\] not
-know, and \[3\] out of court yard.
+Specifies the exact location of the septic tank in the household,
+options including (1) court yard, (2) out of court yard, and (3) not
+know.
 </td>
 </tr>
 <tr>
@@ -374,7 +382,7 @@ latrines_nb
 numeric
 </td>
 <td style="text-align:left;">
-Number of the latrines.
+Reveals the number of latrines connecting to the septic tank.
 </td>
 </tr>
 <tr>
@@ -385,7 +393,7 @@ tk_status
 logical
 </td>
 <td style="text-align:left;">
-Does the tank perform well?
+Expresses septic tank performance status.
 </td>
 </tr>
 <tr>
@@ -396,7 +404,8 @@ empty_freq_yr
 factor
 </td>
 <td style="text-align:left;">
-to be available
+Indicates the emptying frequency of septic tank in the household,
+options including (1) 1, (2) 2 and (3) 3.
 </td>
 </tr>
 <tr>
@@ -407,8 +416,9 @@ empty_mode
 factor
 </td>
 <td style="text-align:left;">
-Mode of emptying, options including \[1\] emptying truck, \[2\] manual
-emptying, and \[3\] truck and manual.
+Indicates how the septic tank is emptied in the household, options
+including (1) emptying truck, (2) manual emptying, and (3) truck and
+manual.
 </td>
 </tr>
 <tr>
@@ -419,7 +429,7 @@ empty_price
 numeric
 </td>
 <td style="text-align:left;">
-Price of emptying
+Shows the charge for emptying the septic tank.
 </td>
 </tr>
 <tr>
@@ -430,7 +440,8 @@ wastwat_dispos
 factor
 </td>
 <td style="text-align:left;">
-options including \[1\] courtyard, \[2\] open drain, and \[3\] street.
+Show whether the household has wastewater disposal facilities, options
+including (1) courtyard, (2) open drain, and (3) street.
 </td>
 </tr>
 <tr>
@@ -441,7 +452,7 @@ waste_cont
 logical
 </td>
 <td style="text-align:left;">
-to be available
+Identify whether the household has solid waste disposal facilities.
 </td>
 </tr>
 <tr>
@@ -452,8 +463,8 @@ waste_cont_loc
 factor
 </td>
 <td style="text-align:left;">
-to be available options including \[1\] courtyard and \[2\] out of
-courtyard.
+Precise location of solid waste disposal equipment, options including
+(1) courtyard and (2) out of courtyard.
 </td>
 </tr>
 <tr>
@@ -464,7 +475,7 @@ cont_empty_wk
 numeric
 </td>
 <td style="text-align:left;">
-to be available
+Indicates the emptying frequency of solid waste disposal equipment
 </td>
 </tr>
 <tr>
@@ -475,8 +486,9 @@ common_ill
 factor
 </td>
 <td style="text-align:left;">
-Common illness, options including \[1\] diarrhea, \[2\] infections,
-\[3\] malaria, and \[4\] typhoid fever.
+Overview of the most common disease in the household associated with
+sanitation, options including (1) diarrhea, (2) infections, (3) malaria,
+and (4) typhoid fever.
 </td>
 </tr>
 </tbody>
@@ -492,6 +504,13 @@ library(saniabidjan)
 # Provide some example code here
 ```
 
+## Capstone Project
+
+This dataset is shared as part of a capstone project in Data Science for
+openwashdata. For more information about the project and to explore
+further insights, please visit the project page at
+<https://ds4owd-001.github.io/project-coulbyph/>
+
 ## License
 
 Data are available as
@@ -505,16 +524,16 @@ Please cite this package using:
 citation("saniabidjan")
 #> To cite package 'saniabidjan' in publications use:
 #> 
-#>   Zié Zoumana Coulibaly P, Zhong M (2024). _saniabidjan: Data About
-#>   Behavior and Practices of Managing Sanitation Facilties in Abidjan,
-#>   Cote d’Ivoire_. R package version 0.0.0.9000,
+#>   Zié Zoumana Coulibaly P, Dongo K, Zhong M (2024). _saniabidjan: Data
+#>   About Behavior and Practices of Managing Sanitation Facilties in
+#>   Abidjan, Cote d’Ivoire_. R package version 0.0.0.9000,
 #>   <https://github.com/openwashdata/saniabidjan>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {saniabidjan: Data About Behavior and Practices of Managing Sanitation Facilties in Abidjan, Cote d’Ivoire},
-#>     author = {Phaniwa {Zié Zoumana Coulibaly} and Mian Zhong},
+#>     author = {Phaniwa {Zié Zoumana Coulibaly} and Kouassi Dongo and Mian Zhong},
 #>     year = {2024},
 #>     note = {R package version 0.0.0.9000},
 #>     url = {https://github.com/openwashdata/saniabidjan},
