@@ -28,7 +28,7 @@ knitr::opts_chunk$set(
 
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
+[![R-CMD-check](https://github.com/openwashdata/saniabidjan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/openwashdata/saniabidjan/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of saniabidjan is to provide survey data about the behavior and practices of managing sanitation facilties in two low-income areas of Abidjan, Cote d’Ivoire. 
@@ -83,8 +83,7 @@ library(saniabidjan)
 
 ### saniabidjan
 
-The dataset `saniabidjan` contains data about household surveys that cover 101 households in Abobo and 106 households in Yopougon.
-It has `r nrow(saniabidjan)` observations and `r ncol(saniabidjan)` variables
+The dataset `saniabidjan` contains data about household surveys that cover 101 households in Abobo and 106 households in Yopougon. It has `r nrow(saniabidjan)` observations and `r ncol(saniabidjan)` variables
 
 ```{r}
 saniabidjan |> 
@@ -109,8 +108,14 @@ readr::read_csv("data-raw/dictionary.csv") |>
 
 ```{r}
 library(saniabidjan)
-
+library(ggplot2)
 # Provide some example code here
+saniabidjan |>
+  ggplot(mapping = aes(x = facilities_type)) + 
+  geom_bar(aes(fill = lat_care), position = "dodge") +
+  labs(title = "Distribution of latrine care for different latrine types", 
+       x = "Type of facilities",
+       fill = "Latrine care type") 
 ```
 
 ## Capstone Project
