@@ -1,26 +1,26 @@
-"","directory","file_name","variable_name","variable_type","description"
-"1","data","saniabidjan.rda","area_name","factor","Two areas of Abidjan, options including [1] Yopougon and [2] Abobo."
-"2","data","saniabidjan.rda","sex","factor","Sex of the respondent, options including [1] male and [2] female."
-"3","data","saniabidjan.rda","education","factor","Educational level of the respondent, options including [1] no, [2] coranic: Koranic school, [3] primary: primary school, [4] high school, and [5] graduate."
-"4","data","saniabidjan.rda","housing_type","factor","Types of housing, options including [1] individual and [2] common courtyard."
-"5","data","saniabidjan.rda","status","factor","Status of the respondent to the housing, options including [1] free host, [2] owner, and [3] renter."
-"6","data","saniabidjan.rda","lat_facilities","logical","to be available"
-"7","data","saniabidjan.rda","facilities_loc","factor","Location of the latrine, options including [1] house, [2] yard, and [3] out of yard."
-"8","data","saniabidjan.rda","facilities_type","factor","Type of the latrine facility, options including [1] pit latrine, [2] improved latrine, and [3] public latrine."
-"9","data","saniabidjan.rda","lat_sharing","logical","Is the latrine shared?"
-"10","data","saniabidjan.rda","nb_user","numeric","Number of users."
-"11","data","saniabidjan.rda","impacts_of_sharing","factor","The impacts of sharing latrine, options including [1] no problems, [2] hygiene problems, [3] vulnerable to disease, and [4] waiting line."
-"12","data","saniabidjan.rda","lat_care","factor","Who takes care of the latrine cleaning, options including [1] no care, [2] myself, [3] private person, [4] round turn."
-"13","data","saniabidjan.rda","clean_freq_wk","numeric","Weekly frequency of cleaning latrine, 2: 1-3 times, 4: 4 or more times."
-"14","data","saniabidjan.rda","tank_presence","logical","to be available"
-"15","data","saniabidjan.rda","tank_location","factor","Location of the tank, options including [1] court yard, [2] not know, and [3] out of court yard."
-"16","data","saniabidjan.rda","latrines_nb","numeric","Number of the latrines."
-"17","data","saniabidjan.rda","tk_status","logical","Does the tank perform well?"
-"18","data","saniabidjan.rda","empty_freq_yr","factor","to be available"
-"19","data","saniabidjan.rda","empty_mode","factor","Mode of emptying, options including [1] emptying truck, [2] manual emptying, and [3] truck and manual."
-"20","data","saniabidjan.rda","empty_price","numeric","Price of emptying"
-"21","data","saniabidjan.rda","wastwat_dispos","factor","options including [1] courtyard, [2] open drain, and [3] street."
-"22","data","saniabidjan.rda","waste_cont","logical","to be available"
-"23","data","saniabidjan.rda","waste_cont_loc","factor","to be available options including [1] courtyard and [2] out of courtyard."
-"24","data","saniabidjan.rda","cont_empty_wk","numeric","to be available"
-"25","data","saniabidjan.rda","common_ill","factor","Common illness, options including [1] diarrhea, [2] infections, [3] malaria, and [4] typhoid fever."
+directory,file_name,variable_name,variable_type,description
+data,saniabidjan.rda,area_name,factor,"Identify survey areas, options including (1) Abobo and (2) Yopougon."
+data,saniabidjan.rda,sex,factor,"Indicates respondents gender, options including (1) female and (2) male."
+data,saniabidjan.rda,education,factor, "Level of education of respondents, options including (1) no, (2) primary, (3) coranic, (4) high school, and (5) graduate."
+data,saniabidjan.rda,housing_type,factor,"Description of the accommodation unit where the respondent lives, options including (1) common courtyard and (2) individual."
+data,saniabidjan.rda,status,factor,"Indicates if respondent is the homeowner or not, options including (1) free host, (2) owner, and (3) renter."
+data,saniabidjan.rda,lat_facilities,logical,Ensuring the presence or absence of latrine facilities
+data,saniabidjan.rda,facilities_loc,factor,"Specifies the exact location of the latrine in the household, options including (1) house, (2) yard, and (3) out of yard."
+data,saniabidjan.rda,facilities_type,factor,"Describes the type of latrine used in the household, options including (1) pit latrine, (2) improved latrine, and (3) public latrine."
+data,saniabidjan.rda,lat_sharing,logical,Explains how latrines are used in the household
+data,saniabidjan.rda,nb_user,numeric,Reveals the number of users of the latrines.
+data,saniabidjan.rda,impacts_of_sharing,factor,"Indication of how the respondent perceives the use of latrines, options including (1) hygiene problems, (2) no problems, (3) vulnerable to disease, and (4) waiting line."
+data,saniabidjan.rda,lat_care,factor,"Gives an overview of the people in charge of latrine cleaning, options including (1) myself, (2) no care, and (3) private person, and (4) round turn."
+data,saniabidjan.rda,clean_freq_wk,numeric,Specifies the cleaning frequency of latrines in the household.
+data,saniabidjan.rda,tank_presence,logical,Ensuring the presence or absence of septic tank in the household
+data,saniabidjan.rda,tank_location,factor,"Specifies the exact location of the septic tank in the household, options including (1) court yard, (2) out of court yard, and (3) not know."
+data,saniabidjan.rda,latrines_nb,numeric,Reveals the number of latrines connecting to the septic tank.
+data,saniabidjan.rda,tk_status,logical,Expresses septic tank performance status.
+data,saniabidjan.rda,empty_freq_yr,factor,"Indicates the emptying frequency of septic tank in the household, options including (1) 1, (2) 2 and (3) 3."
+data,saniabidjan.rda,empty_mode,factor,"Indicates how the septic tank is emptied in the household, options including (1) emptying truck, (2) manual emptying, and (3) truck and manual."
+data,saniabidjan.rda,empty_price,numeric,Shows the charge for emptying the septic tank.
+data,saniabidjan.rda,wastwat_dispos,factor,"Show whether the household has wastewater disposal facilities, options including (1) courtyard, (2) open drain, and (3) street."
+data,saniabidjan.rda,waste_cont,logical,Identify whether the household has solid waste disposal facilities.
+data,saniabidjan.rda,waste_cont_loc,factor,"Precise location of solid waste disposal equipment, options including (1) courtyard and (2) out of courtyard."
+data,saniabidjan.rda,cont_empty_wk,numeric,Indicates the emptying frequency of solid waste disposal equipment
+data,saniabidjan.rda,common_ill,factor,"Overview of the most common disease in the household associated with sanitation, options including (1) diarrhea, (2) infections, (3) malaria, and (4) typhoid fever."
