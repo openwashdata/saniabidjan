@@ -1,6 +1,6 @@
 Package: saniabidjan
 Title: Data About Behavior and Practices of Managing Sanitation Facilties in Abidjan, Cote d’Ivoire
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: c(
     person("Phaniwa", "Zié Zoumana Coulibaly", , "coulbyph@gmail.com", role = "aut",
            comment = c(ORCID = "0000-0002-3096-9061")),
@@ -16,7 +16,7 @@ RoxygenNote: 7.3.2
 Language: en-GB
 LazyData: true
 Config/Needs/website: rmarkdown
-Date: 2024-07-10
+Date: 2024-07-24
 URL: https://github.com/openwashdata/saniabidjan
 BugReports: https://github.com/openwashdata/saniabidjan/issues
 Depends: 

@@ -67,7 +67,7 @@ saniabidjan |>
   gt::as_raw_html()
 ```
 
-<div id="jnnhpxvdax" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ragrbmsqwf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -228,8 +228,11 @@ education
 factor
 </td>
 <td style="text-align:left;">
-Level of education of respondents, options including (1) no, (2)
-primary, (3) coranic, (4) high school, and (5) graduate.
+Level of education of respondents, options including (1) no: the
+respondent did not go to school, (2) primary: the respondent has an
+elementary level, (3) coranic: the respondent went to a Quranic school,
+(4) high school: the respondent has a high school degree, and (5)
+graduate: the respondent has a university degree.
 </td>
 </tr>
 <tr>
@@ -253,7 +256,8 @@ factor
 </td>
 <td style="text-align:left;">
 Indicates if respondent is the homeowner or not, options including (1)
-free host, (2) owner, and (3) renter.
+free host: the respondent is hosted for free, (2) owner: the respondent
+is the homeowner, and (3) renter: the respondent is the renter.
 </td>
 </tr>
 <tr>
@@ -264,7 +268,7 @@ lat_facilities
 logical
 </td>
 <td style="text-align:left;">
-Ensuring the presence or absence of latrine facilities
+Does the surveyed household have latrine facilities?
 </td>
 </tr>
 <tr>
@@ -358,7 +362,7 @@ tank_presence
 logical
 </td>
 <td style="text-align:left;">
-Ensuring the presence or absence of septic tank in the household
+Does the surveyed household have septic tank?
 </td>
 </tr>
 <tr>
@@ -404,8 +408,8 @@ empty_freq_yr
 factor
 </td>
 <td style="text-align:left;">
-Indicates the emptying frequency of septic tank in the household,
-options including (1) 1, (2) 2 and (3) 3.
+Indicates the number of times that the septic tank is emptied during the
+year in the household, options including (1) 1, (2) 2 and (3) 3.
 </td>
 </tr>
 <tr>
@@ -429,7 +433,7 @@ empty_price
 numeric
 </td>
 <td style="text-align:left;">
-Shows the charge for emptying the septic tank.
+Shows the charge/price (in CFA franc) for emptying the septic tank.
 </td>
 </tr>
 <tr>
@@ -452,7 +456,7 @@ waste_cont
 logical
 </td>
 <td style="text-align:left;">
-Identify whether the household has solid waste disposal facilities.
+Does the surveyed household have solid waste disposal facilities?
 </td>
 </tr>
 <tr>
@@ -475,7 +479,8 @@ cont_empty_wk
 numeric
 </td>
 <td style="text-align:left;">
-Indicates the emptying frequency of solid waste disposal equipment
+Indicates the emptying frequency of solid waste disposal equipment per
+week
 </td>
 </tr>
 <tr>
