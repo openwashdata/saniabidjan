@@ -1,0 +1,31 @@
+{
+  "creators": [
+    {
+      "name": "Zié Zoumana Coulibaly, Phaniwa",
+      "orcid": "0000-0002-3096-9061"
+    },
+    {
+      "name": "Dongo, Kouassi"
+    },
+    {
+      "name": "Zhong, Mian",
+      "orcid": "0009-0009-4546-7214"
+    }
+  ],
+
+  "upload_type": "dataset",
+
+  "notes": "Visit the website of this dataset for instructions how to use it:\n    https://openwashdata.github.io/saniabidjan/",
+
+  "related_identifiers": [
+    {
+    "identifier": "https://openwashdata.github.io/saniabidjan/",
+    "relation": "isCompiledBy",
+    "resource_type": "dataset"
+  }
+  ],
+
+  "communities": [
+    {"identifier": "openwashdata"}
+    ]
+}
