@@ -9,7 +9,8 @@ type: software
 license: CC-BY-4.0
 title: 'saniabidjan: Data About Behavior and Practices of Managing Sanitation Facilties
   in Abidjan, Cote d’Ivoire'
-version: 0.0.0.9000
+version: 0.0.1
+doi: 10.5281/zenodo.13134220
 abstract: This data package contains household survey data collected from two low-income
   areas of Abidjan, Cote d'Ivoire. The survey was focusing on practices related to
   the management of sanitation facilities, specifically, latrines and tanks.
@@ -27,22 +28,20 @@ authors:
   orcid: https://orcid.org/0009-0009-4546-7214
 repository-code: https://github.com/openwashdata/saniabidjan
 url: https://github.com/openwashdata/saniabidjan
-date-released: '2024-07-10'
+date-released: '2024-07-30'
 contact:
 - family-names: Zhong
   given-names: Mian
   email: mzhong@ethz.ch
   orcid: https://orcid.org/0009-0009-4546-7214
-references:
-- type: software
-  title: 'R: A Language and Environment for Statistical Computing'
-  notes: Depends
-  url: https://www.R-project.org/
-  authors:
-  - name: R Core Team
-  institution:
-    name: R Foundation for Statistical Computing
-    address: Vienna, Austria
-  year: '2024'
-  version: '>= 2.10'
+keywords:
+- abidjan
+- cote-d-ivoire
+- household-surveys
+- open-data
+- openwashdata
+- r
+- sanitation
+- wash
+- water-management
 
