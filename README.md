@@ -11,10 +11,11 @@
 ![GitHub Downloads (all assets, all
 releases)](https://img.shields.io/github/downloads/openwashdata/saniabidjan/total)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13134219.svg)](https://zenodo.org/doi/10.5281/zenodo.13134219)
 <!-- badges: end -->
 
 The goal of saniabidjan is to provide survey data about the behavior and
-practices of managing sanitation facilties in two low-income areas of
+practices of managing sanitation facilities in two low-income areas of
 Abidjan, Cote d’Ivoire.
 
 ## Installation
@@ -41,8 +42,8 @@ library(kableExtra)
 Alternatively, you can download the individual datasets as a CSV or XLSX
 file from the table below.
 
-| dataset     | CSV                                                                                               | XLSX                                                                                                |
-|:------------|:--------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
+| dataset | CSV | XLSX |
+|:---|:---|:---|
 | saniabidjan | [Download CSV](https://github.com/openwashdata/saniabidjan/raw/main/inst/extdata/saniabidjan.csv) | [Download XLSX](https://github.com/openwashdata/saniabidjan/raw/main/inst/extdata/saniabidjan.xlsx) |
 
 ## Data
@@ -70,7 +71,7 @@ saniabidjan |>
   gt::as_raw_html()
 ```
 
-<div id="tzxbsusivf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="lutofeozis" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   &#10;  <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false" style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; display: table; border-collapse: collapse; line-height: normal; margin-left: auto; margin-right: auto; color: #333333; font-size: 16px; font-weight: normal; font-style: normal; background-color: #FFFFFF; width: auto; border-top-style: solid; border-top-width: 2px; border-top-color: #A8A8A8; border-right-style: none; border-right-width: 2px; border-right-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #A8A8A8; border-left-style: none; border-left-width: 2px; border-left-color: #D3D3D3;" bgcolor="#FFFFFF">
   <thead style="border-style: none;">
     <tr class="gt_col_headings" style="border-style: none; border-top-style: solid; border-top-width: 2px; border-top-color: #D3D3D3; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3;">
@@ -178,8 +179,7 @@ saniabidjan |>
 <td headers="cont_empty_wk" class="gt_row gt_right" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: right; font-variant-numeric: tabular-nums;" valign="middle" align="right">2</td>
 <td headers="common_ill" class="gt_row gt_center" style="border-style: none; padding-top: 8px; padding-bottom: 8px; padding-left: 5px; padding-right: 5px; margin: 10px; border-top-style: solid; border-top-width: 1px; border-top-color: #D3D3D3; border-left-style: none; border-left-width: 1px; border-left-color: #D3D3D3; border-right-style: none; border-right-width: 1px; border-right-color: #D3D3D3; vertical-align: middle; overflow-x: hidden; text-align: center;" valign="middle" align="center">malaria</td></tr>
   </tbody>
-  &#10;  
-</table>
+  &#10;</table>
 </div>
 
 For an overview of the variable names, see the following table.
@@ -187,319 +187,532 @@ For an overview of the variable names, see the following table.
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; ">
 
 <table class="table table-striped" style="margin-left: auto; margin-right: auto;">
+
 <thead>
+
 <tr>
+
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+
 variable_name
 </th>
+
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+
 variable_type
 </th>
+
 <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+
 description
 </th>
+
 </tr>
+
 </thead>
+
 <tbody>
+
 <tr>
+
 <td style="text-align:left;">
+
 area_name
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Identify survey areas, options including (1) Abobo and (2) Yopougon.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 sex
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Indicates respondents gender, options including (1) female and (2) male.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 education
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Level of education of respondents, options including (1) no: the
 respondent did not go to school, (2) primary: the respondent has an
 elementary level, (3) coranic: the respondent went to a Quranic school,
 (4) high school: the respondent has a high school degree, and (5)
 graduate: the respondent has a university degree.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 housing_type
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Description of the accommodation unit where the respondent lives,
 options including (1) common courtyard and (2) individual.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 status
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Indicates if respondent is the homeowner or not, options including (1)
 free host: the respondent is hosted for free, (2) owner: the respondent
 is the homeowner, and (3) renter: the respondent is the renter.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 lat_facilities
 </td>
+
 <td style="text-align:left;">
+
 logical
 </td>
+
 <td style="text-align:left;">
+
 Does the surveyed household have latrine facilities?
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 facilities_loc
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Specifies the exact location of the latrine in the household, options
 including (1) house, (2) yard, and (3) out of yard.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 facilities_type
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Describes the type of latrine used in the household, options including
 (1) pit latrine, (2) improved latrine, and (3) public latrine.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 lat_sharing
 </td>
+
 <td style="text-align:left;">
+
 logical
 </td>
+
 <td style="text-align:left;">
+
 Explains how latrines are used in the household
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 nb_user
 </td>
+
 <td style="text-align:left;">
+
 numeric
 </td>
+
 <td style="text-align:left;">
+
 Reveals the number of users of the latrines.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 impacts_of_sharing
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Indication of how the respondent perceives the use of latrines, options
 including (1) hygiene problems, (2) no problems, (3) vulnerable to
 disease, and (4) waiting line.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 lat_care
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Gives an overview of the people in charge of latrine cleaning, options
 including (1) myself, (2) no care, and (3) private person, and (4) round
 turn.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 clean_freq_wk
 </td>
+
 <td style="text-align:left;">
+
 numeric
 </td>
+
 <td style="text-align:left;">
+
 Specifies the cleaning frequency of latrines in the household.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 tank_presence
 </td>
+
 <td style="text-align:left;">
+
 logical
 </td>
+
 <td style="text-align:left;">
+
 Does the surveyed household have septic tank?
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 tank_location
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Specifies the exact location of the septic tank in the household,
 options including (1) court yard, (2) out of court yard, and (3) not
 know.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 latrines_nb
 </td>
+
 <td style="text-align:left;">
+
 numeric
 </td>
+
 <td style="text-align:left;">
+
 Reveals the number of latrines connecting to the septic tank.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 tk_status
 </td>
+
 <td style="text-align:left;">
+
 logical
 </td>
+
 <td style="text-align:left;">
+
 Expresses septic tank performance status.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 empty_freq_yr
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Indicates the number of times that the septic tank is emptied during the
 year in the household, options including (1) 1, (2) 2 and (3) 3.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 empty_mode
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Indicates how the septic tank is emptied in the household, options
 including (1) emptying truck, (2) manual emptying, and (3) truck and
 manual.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 empty_price
 </td>
+
 <td style="text-align:left;">
+
 numeric
 </td>
+
 <td style="text-align:left;">
+
 Shows the charge/price (in CFA franc) for emptying the septic tank.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 wastwat_dispos
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Show whether the household has wastewater disposal facilities, options
 including (1) courtyard, (2) open drain, and (3) street.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 waste_cont
 </td>
+
 <td style="text-align:left;">
+
 logical
 </td>
+
 <td style="text-align:left;">
+
 Does the surveyed household have solid waste disposal facilities?
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 waste_cont_loc
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Precise location of solid waste disposal equipment, options including
 (1) courtyard and (2) out of courtyard.
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 cont_empty_wk
 </td>
+
 <td style="text-align:left;">
+
 numeric
 </td>
+
 <td style="text-align:left;">
+
 Indicates the emptying frequency of solid waste disposal equipment per
 week
 </td>
+
 </tr>
+
 <tr>
+
 <td style="text-align:left;">
+
 common_ill
 </td>
+
 <td style="text-align:left;">
+
 factor
 </td>
+
 <td style="text-align:left;">
+
 Overview of the most common disease in the household associated with
 sanitation, options including (1) diarrhea, (2) infections, (3) malaria,
 and (4) typhoid fever.
 </td>
+
 </tr>
+
 </tbody>
+
 </table>
 
 </div>
@@ -518,7 +731,7 @@ saniabidjan |>
        fill = "Latrine care type") 
 ```
 
-<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" alt="" width="100%" style="display: block; margin: auto;" />
 
 ## Capstone Project
 
@@ -540,22 +753,22 @@ Please cite this package using:
 citation("saniabidjan")
 #> To cite package 'saniabidjan' in publications use:
 #> 
-#>   Zié Zoumana Coulibaly P, Dongo K, Zhong M (2024). "saniabidjan: Data
-#>   About Behavior and Practices of Managing Sanitation Facilties in
-#>   Abidjan, Cote d’Ivoire." doi:10.5281/zenodo.13134220
-#>   <https://doi.org/10.5281/zenodo.13134220>,
-#>   <https://github.com/openwashdata/saniabidjan>.
+#>   Zié Zoumana Coulibaly P, Dongo K, Zhong M, Schöbitz L (2024).
+#>   "saniabidjan: Sanitation Facility Management in Abidjan, Cote
+#>   d'Ivoire, 2018." doi:10.5281/zenodo.13134219
+#>   <https://doi.org/10.5281/zenodo.13134219>.
+#>   <https://openwashdata.github.io/saniabidjan/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Misc{ziezoumanacoulibaly_etall:2024,
-#>     title = {saniabidjan: Data About Behavior and Practices of Managing Sanitation Facilties in Abidjan, Cote d’Ivoire},
-#>     author = {Phaniwa {Zié Zoumana Coulibaly} and Kouassi Dongo and Mian Zhong},
+#>     title = {saniabidjan: Sanitation Facility Management in Abidjan, Cote d'Ivoire, 2018},
+#>     author = {Phaniwa {Zié Zoumana Coulibaly} and Kouassi Dongo and Mian Zhong and Lars Schöbitz},
 #>     year = {2024},
-#>     doi = {10.5281/zenodo.13134220},
-#>     url = {https://github.com/openwashdata/saniabidjan},
+#>     doi = {10.5281/zenodo.13134219},
+#>     url = {https://openwashdata.github.io/saniabidjan/},
 #>     abstract = {This data package contains household survey data collected from two low-income areas of Abidjan, Cote d'Ivoire. The survey was focusing on practices related to the management of sanitation facilities, specifically, latrines and tanks.},
-#>     keywords = {abidjan,cote-d-ivoire,household-surveys,open-data,openwashdata,r,sanitation,wash,water-management},
+#>     keywords = {open data,washdata,sanitation,latrines,septic tanks,faecal sludge emptying,household survey,Abidjan,Cote d'Ivoire},
 #>     version = {0.0.1},
 #>   }
 ```
