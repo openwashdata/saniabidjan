@@ -5,8 +5,10 @@ Authors@R: c(
     person("Phaniwa", "Zié Zoumana Coulibaly", , "coulbyph@gmail.com", role = "aut",
            comment = c(ORCID = "0000-0002-3096-9061")),
     person("Kouassi", "Dongo", , "kdongo8@gmail.com", role = "aut"),
-    person("Mian", "Zhong", , "mzhong@ethz.ch", role = c("aut", "cre"),
-           comment = c(ORCID = "0009-0009-4546-7214"))
+    person("Mian", "Zhong", , "mzhong@ethz.ch", role = "aut",
+           comment = c(ORCID = "0009-0009-4546-7214")),
+    person("Lars", "Schöbitz", , "lschoebitz@ethz.ch", role = "cre",
+           comment = c(ORCID = "0000-0003-2196-5015"))
   )
 Description: This data package contains household survey data collected from two low-income areas of Abidjan, Cote d'Ivoire. The survey was focusing on practices related to the management of sanitation facilities, specifically, latrines and tanks.
 License: CC BY 4.0
