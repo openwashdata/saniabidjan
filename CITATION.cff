@@ -1,16 +1,15 @@
-# --------------------------------------------
-# CITATION file created with {cffr} R package
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
 # See also: https://docs.ropensci.org/cffr/
-# --------------------------------------------
+# ------------------------------------------------
  
 cff-version: 1.2.0
 message: 'To cite package "saniabidjan" in publications use:'
-type: software
+type: dataset
 license: CC-BY-4.0
-title: 'saniabidjan: Data About Behavior and Practices of Managing Sanitation Facilties
-  in Abidjan, Cote d’Ivoire'
+title: 'saniabidjan: Sanitation Facility Management in Abidjan, Cote d''Ivoire, 2018'
 version: 0.0.1
-doi: 10.5281/zenodo.13134220
+doi: 10.5281/zenodo.13134219
 abstract: This data package contains household survey data collected from two low-income
   areas of Abidjan, Cote d'Ivoire. The survey was focusing on practices related to
   the management of sanitation facilities, specifically, latrines and tanks.
@@ -26,22 +25,26 @@ authors:
   given-names: Mian
   email: mzhong@ethz.ch
   orcid: https://orcid.org/0009-0009-4546-7214
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
 repository-code: https://github.com/openwashdata/saniabidjan
-url: https://github.com/openwashdata/saniabidjan
+url: https://openwashdata.github.io/saniabidjan/
 date-released: '2024-07-30'
 contact:
-- family-names: Zhong
-  given-names: Mian
-  email: mzhong@ethz.ch
-  orcid: https://orcid.org/0009-0009-4546-7214
+- family-names: Schöbitz
+  given-names: Lars
+  email: lschoebitz@ethz.ch
+  orcid: https://orcid.org/0000-0003-2196-5015
 keywords:
-- abidjan
-- cote-d-ivoire
-- household-surveys
-- open-data
-- openwashdata
-- r
+- open data
+- washdata
 - sanitation
-- wash
-- water-management
+- latrines
+- septic tanks
+- faecal sludge emptying
+- household survey
+- Abidjan
+- Cote d'Ivoire
 
