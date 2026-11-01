@@ -2,8 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13134219.svg)](https://zenodo.org/doi/10.5281/zenodo.13134219)
 
-A data package published by [openwashdata](https://openwashdata.org).
-
 The goal of saniabidjan is to provide survey data about the behavior and
 practices of managing sanitation facilities in two low-income areas of
 Abidjan, Cote d’Ivoire.
@@ -131,6 +129,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/saniabidjan/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 
