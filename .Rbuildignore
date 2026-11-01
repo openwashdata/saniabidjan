@@ -9,3 +9,5 @@
 ^pkgdown$
 ^\.github$
 ^\.zenodo\.json$
+^_brand\.yml$
+^logos$

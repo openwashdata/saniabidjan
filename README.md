@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# saniabidjan
+# saniabidjan <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -13,8 +13,6 @@ releases)](https://img.shields.io/github/downloads/openwashdata/saniabidjan/tota
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13134219.svg)](https://zenodo.org/doi/10.5281/zenodo.13134219)
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 The goal of saniabidjan is to provide survey data about the behavior and
 practices of managing sanitation facilities in two low-income areas of
@@ -748,6 +746,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/saniabidjan/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 

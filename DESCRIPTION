@@ -16,7 +16,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Language: en-GB
 LazyData: true
-Config/Needs/website: rmarkdown, dplyr, knitr, readr, stringr, gt, kableExtra, ggplot2
+Config/Needs/website: rmarkdown, dplyr, knitr, readr, stringr, gt, kableExtra, ggplot2, brand.yml
 Date: 2024-07-30
 URL: https://openwashdata.github.io/saniabidjan/,
     https://github.com/openwashdata/saniabidjan
@@ -36,4 +36,5 @@ Config/washr/publisher: Published by [openwashdata](https://openwashdata.org), a
 Config/washr/home: https://openwashdata.org
 Config/washr/catalog: https://openwashdata.org/pages/gallery/data/
 Config/washr/community: This package is part of [openwashdata](https://openwashdata.org). Browse the [data catalogue](https://openwashdata.org/pages/gallery/data/) or get the [newsletter](https://openwashdata.org/pages/newsletter/).
-Config/washr/version: 1.2.1
+Config/washr/version: 1.2.2
+Config/washr/brand: v1.1.0
